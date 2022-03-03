@@ -1,0 +1,14 @@
+form{
+    background-color: bisque;
+}
+input[type=text]{
+    background-color: #ddd;
+    border: 1 px solid #000;
+    
+    
+    cursor: pointer;
+}
+input[type=email]{
+    background-color: blueviolet;
+    border:  1 px solid #000;
+}

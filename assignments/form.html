@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML form</title>
+    <link rel="stylesheet" href="form.css"> 
+</head>
+<body >
+    <form style="text-align: center;">
+        <label for="rollno"> Roll No </label><br>
+        <input type ="number" id="rollno" name="rollno"><br><br>
+        <label for ="name"> Name </label><br>
+        <input type = "text" id="name" name="name"><br><br>
+        <label for ="number"> Phone Num </label><br>
+        <input type="text" id="number" name="number"><br><br>
+        Email:<br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <input type="radio"  name="Gender" value="male" checked>Male
+        <input type="radio"  name="Gender" value="female" >Female<br><br>
+        
+        Branch:<br>
+        <input type="checkbox" name="CS" value="CSE">cOMP<br>
+        <input type="checkbox" name="CIVIL" value="CIVIL">cIV<br><br>
+        <input type="submit" value="Submit" style="">
+        <input type="reset" value="Clear"><br><br>
+        <input type="button" value ="click here"onclick="alert('hello World')"><br><br>
+    </form>
+</body>
+</html>

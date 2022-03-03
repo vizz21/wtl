@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <form style="margin-left: 10cm; width: 400px; ">
+        Name <input type="text" id="name" ><br><br>
+        Address<input type="text" id="name" value="Nashik"><br><br>
+        mobile<input type="tel" id="mb"><br>
+        number<br><br>
+        DOB <input type="date" id="dob" value="mm/dd/yyyy"><br><br>
+        Email-id <input type="email" id="email"><br><br>
+        Gender <input type="radio" name="gender" value="male">Male 
+               <input type="radio" name="gender"value="male">FeMale 
+               <input type="radio" name="gender"value="male">other <br><br>
+        <label for="Hobbies">Hobbies </label>
+                <input type="checkbox" id="hobby" name="hobbies" value="Programming"> Programming<br>
+               <pre>        <input type="checkbox" id="hobby" name="hobbies" value="Construction">Construction<br></pre>
+               <pre>        <input type="checkbox" id="hobby" name="hobbies" value="Designing">Designing<br></pre>
+        Select Branch 
+        <select name="branch">
+            <option value="CSe">CSe</option>
+            <option value="Civil">Civil</option>
+            <option value="E & Tc">E & Tc</option>
+        </select><br><br>
+        RATE THIS SITE <input type="number" id="rate" name="ratethis" value="5"> <br><br>
+         
+        Comments <textarea name="message" rows="5" cols="20">
+        Give your comments here
+
+        </textarea>
+        <pre>       <input type="submit" value="submit">    <input type="reset" value="reset"></pre>
+    </form>
+</body>
+</html>
